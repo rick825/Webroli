@@ -1,0 +1,339 @@
+<!doctype html>
+ <head>
+ 	<meta charset="utf-8">
+ 	<meta name="viewport" content="width=device-width,initial-scale=1">
+ 	 <meta name="author" content="Akash,Sonu,Rohit,Himanshu">
+ 	 <title>Multipurpose Website</title>
+     <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="maincontleft.css">
+ </head>
+ <body>
+    <section id="main">
+        <div class="main">
+  <section id="hero">
+      <div class="hero">
+        <!-- nav section -->
+       <!-- main nav section -->
+          <section id="mainnav">
+              <div class="mainnav ">
+                 <!-- main nav left -->
+                  <div class="navlistleft navi backg">
+                    <div class="logo">
+                        <h1>Webroli</h1>
+                    </div>
+                      <ul class="navlist">
+
+                        <li class="navitem"><a href="" class="navlink">Help</a></li>
+
+                        <li class="navitem"><a href="" class="navlink">Info</a></li>
+                      </ul>
+                  </div>
+                    <!-- end main nav left -->
+                    <!-- main nav right  -->
+                    <div class="navlistright navi backg">
+                        <ul class="navlist">
+                            <li class="navitem"><form action="">
+                        <input type="text" id="fname" name="fname" placeholder="Search">
+                        <button>Search</button>
+                            </form></li>
+                        </ul>
+                    </div>
+                    <!-- end main nav right -->
+              </div>
+          </section>
+    <!-- end main nav section -->
+   
+
+    <!-- end nav section -->
+
+
+    <!-- main div section -->
+    <section id="maindiv">
+        <div class="maindiv">
+             <!-- side nav section -->
+    <section id="sidenav" class="backg">
+        <div class="sidenav ">
+                <ul class="navlist">
+                    <li class="navitem"><a href="" class="navlink"><img src="icons/home.png" alt=""></a></li>
+                     <li class="navitem"><a href="" class="navlink"><img src="icons/gallery.png" alt=""></a></li>
+                      <li class="navitem"><a href="" class="navlink"><img src="icons/portfolio.png" alt=""></a></li>
+                       <li class="navitem"><a href="" class="navlink"><img src="icons/help.png" alt=""></a></li>
+            </div>
+        
+    </section>
+    <!-- end side nav section -->
+
+    <!-- main cont section -->
+    <section id="maincontsec">
+        <div class="maincontsec ">
+
+     <!-- main cont left section-->
+    <section id="maincontleft">
+        <div class="maincontleft maincont">
+            <!-- left top -->
+            <div class="lefttop leftmain">
+                <div class="ltopl ltop backg">
+                    <!-- clock -->
+                <div class="clock"> 
+                  <!-- time -->
+                  <div class="ltime">
+                          <div class="hour data">
+                <p id="hr" class="hr">00</p>
+            </div>
+            <p class="dot">:</p>
+                <div class="min  data">
+                    <p id="mn" class="mn">00</p>
+                </div>
+
+            <div class="ampm  data">
+                <p id="ap" class="ap">NA</p>
+            </div>
+                      </div>
+                 
+                  <!-- end time -->
+                  <!-- day and date -->
+                  <div class="lddte">
+
+                    <div class="day data" >
+               <p id="dy" class="dy"></p>
+               <p id="demo"></p>
+            <!-- <h2 class="h2">DAY</h2> -->
+            </div>
+
+              <div class="date data">
+                  <p id="dt" class="dt">
+                  </p>
+                  <p id="mnth" class="mnth">                      
+                  </p>
+                  <!-- <p class="date">Date</p> -->
+              </div>
+                  </div>
+                  <!-- end day and date -->
+                   </div>
+                   <!-- end clock -->
+                </div>
+                <div class="ltopr ltop backg">
+                    <!-- dark and light mode -->
+                      <div class="dl">
+                <div class="dark" onclick="fade()">
+                   <h1   readonly>Dark</h1>
+                  </div>
+                 <hr>
+                <div class="light"  onclick="fade()">
+                  <h1  readonly>Light</h1>
+                 </div>
+               </div>
+               <!-- and dark and light mode -->
+                 </div>
+            </div>
+            <!-- end left top -->
+            <!-- main left bottom -->
+            <div class="mleftb mlb">
+            <!-- left mid -->
+            <div class="leftmid leftmain backg">
+                <div class="leftmidinner leftappoption">
+                    <div class="appoption">
+                        <div  onclick="appoption()" class="appop1 appop">
+                            <p class="op1 op"></p>
+                            <img class="appoptionimg" src="icons/calculator.png" alt="">
+                        </div>
+                        <div  onclick="appoption()" class="appop2 appop">
+                            <p class="op2 op"></p>
+                            <img class="appoptionimg" src="icons/timer.png" alt="">
+                        </div>
+                        <div onclick="appoption()" class="appop3 appop">
+                            
+                        </div>
+                        <div onclick="appoption()" class="appop4 appop">
+                            
+                        </div>
+                         <div onclick="appoption()" class="appop5 appop">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end left mid -->
+            <!-- left bottom -->
+            <div class="leftbot leftmain backg">
+                <div class="leftbotinner">
+                    <div class="appmain">
+                        <div class="appm1 appm calc">
+                            <!-- calculator-->
+            <div class="calculator-css">    
+        <form class="cal" name="calc">
+            <input type="text" name="txt" class="value" readonly="">
+            <span class="num clear" onclick="document.calc.txt.value =''">C</span>
+            <span class="num" onclick="document.calc.txt.value +='/'">/</span>
+            <span class="num" onclick="document.calc.txt.value +='*'">*</span>
+            <span class="num" onclick="document.calc.txt.value +='7'">7</span>
+            <span class="num" onclick="document.calc.txt.value +='8'">8</span>
+            <span class="num" onclick="document.calc.txt.value +='9'">9</span>
+            <span class="num" onclick="document.calc.txt.value +='-'">-</span>
+            <span class="num" onclick="document.calc.txt.value +='4'">4</span>
+            <span class="num" onclick="document.calc.txt.value +='5'">5</span>
+            <span class="num" onclick="document.calc.txt.value +='6'">6</span>
+            <span class="num plus" onclick="document.calc.txt.value +='+'">+</span>
+            <span class="num" onclick="document.calc.txt.value +='3'">3</span>
+            <span class="num" onclick="document.calc.txt.value +='2'">2</span>
+            <span class="num" onclick="document.calc.txt.value +='1'">1</span>
+            <span class="num" onclick="document.calc.txt.value +='0'">0</span>
+            <span class="num" onclick="document.calc.txt.value +='00'">00</span>
+            <span class="num" onclick="document.calc.txt.value +='.'">.</span>
+            <span class="num equal" onclick="document.calc.txt.value = eval(calc.txt.value)">=</span>
+            
+        </form>
+        </div>
+        <!-- end calculator -->
+                        </div>
+                         <div class="appm2 appm">
+                            <!-- countdown -->
+                           <div class="countdown">
+  <div class="timer">
+    <h1 class="tmainhead">Timer</h1>
+    <div class="inputblocks">
+    <div class="hdiv timerdiv" id="hdiv">
+        <input type="text" id="hour" class="hour"><br>
+        <p>Hour</p>
+    </div>
+    <div class="mdiv timerdiv" id="mdiv">
+        <input type="text" id="min" class="min">
+        <p>Minute</p>
+    </div>
+    <div class="sdiv timerdiv" id="sdiv">
+        <input type="text" id="sec" class="sec">
+        <p>Second</p>
+    </div>
+    </div>
+
+     <div id="timedisplay" class="timedisplay">
+        <p class="th">Your timer Has Started!</p>
+        <p id="tdisplay" class="tdisplay"></p>
+           <p id="dhead" class="dhead"></p>
+    </div>
+     <div class="timerbtndiv">
+    <button class="stbutton btn" id="stbutton" onclick="startTimer()">Start</button>
+    <button class="rsbutton btn" id="rsbutton" onclick="resetTimer()">Reset</button>
+    </div>
+  </div>    
+</div>  
+<!-- end countdown -->
+                        </div>
+                         <div class="appm3 appm">
+                            <h3>3</h3>
+                        </div>
+                         <div class="appm4 appm">
+                            <h4>4</h4>
+                        </div>
+                         <div class="appm5 appm">
+                            <h5>5</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end left bottom -->
+        </div>
+            <!-- end main left bottom -->
+        </div>
+    </section>
+    <!-- end main cont left section-->
+    <!-- main cont mid section -->
+    <section id="maincontmid">
+        <div class="maincontmid maincont "> 
+            <!-- mid top -->
+            <div class="midtop midmain backg">
+                
+            </div>
+            <!-- end mid top -->
+            <!-- notes section -->
+            <!-- mid bot -->
+            <div class="midbot midmain notesection">
+                <div class="midwrt ndiv">
+                        <!-- cap  -->
+                <div aria-label="Create a post" class="cap68 col">
+                    <div class="row1">
+                        <!-- <img src="" alt=""> -->
+                        <img src="images/ch1.png" alt="" class="cir71">
+                        <form action="">
+                            <input type="text" placeholder="Write whats on your mind.." name="cap" class="inputcap" >
+                        </form>
+                    </div>
+                    <!-- <div class="row2">
+                        <p class="imga rowbtn">Add Image</p>
+                         <p class="qouta rowbtn">Add Quote</p>
+                         <p class="blockq rowbtn">Add Blockqoute</p>
+                    </div> -->
+                    </div>
+                    <!-- end cap -->
+                </div>
+                <div class="midnotes notediv ndiv">
+                    
+                </div>
+            </div>
+            <!-- end mid bot -->
+            <!-- end notes section -->
+        </div>
+    </section>
+    <!-- end main cont mid section -->
+    <!-- main  cont right section -->
+    <section id="maincontright">
+        <div class="maincontright maincont ">
+            <!-- right top -->
+            <div class="righttop backg">
+                
+            </div>
+            <!-- end right top -->
+            <!-- right mid -->
+            <div class="rightmid backg">
+                
+            </div>
+            <!-- end right mid -->
+            <div class="rightbot">
+                <div class="rbot1 rbot backg">
+                    
+                </div>
+                <div class="rbot2 rbot backg">
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end main cont right section -->
+</div>
+        </section>
+    <!-- end main cont section -->
+
+        </div>
+    </section>
+    <!-- end main div section -->
+
+    </div>
+  </section>
+</div>
+ </section>
+  <script>
+      window.onload = function(){
+        var today = document.getElementById("dy");
+
+        // (function(){
+        //         var days =  ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
+
+        //         Date.prototype.getDayName = function(){
+        //             return days[this.getDay()];
+        //         };
+        // })();
+           
+            today.innerHTML = "dy";
+             var demo = document.getElementById("demo");
+                    demo.innerHTML = "Akash";
+      }
+     
+  </script>
+   
+   
+          <script src="maincontleft.js"></script>
+         <script src="app.js"></script>
+          <script src="countdown.js"></script>
+
+ </body>
+</html>
